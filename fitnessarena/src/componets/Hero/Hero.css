@@ -3,3 +3,19 @@
     justify-content: space-between;
 
 }
+
+.left-h{
+   padding: 1rem;
+   padding-top: 1.5rem;
+   flex: 3;
+
+   
+   
+
+}
+
+.right-h{
+    flex: 1;
+   
+
+}
