@@ -91,11 +91,11 @@
 
 }
 
-.figures>div>span:nth-of-type(2){
-    color:  var(gray);
+.figures > div > span:nth-of-type(2) {
+    color: var(--gray);
     text-transform: uppercase;
-
-}
+  }
+  
 
 .hero-button{
     display:flex;

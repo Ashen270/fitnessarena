@@ -27,7 +27,6 @@ const Hero = () => {
           We assist you in sculpting and constructing your dream physique, empowering you to lead a fulfilling and vibrant life.
           </span>
           </div>
-          
         </div>
         
         {/* Figures */}
@@ -45,12 +44,14 @@ const Hero = () => {
             <span>Fitness Programs</span>
           </div>
         </div>
-        </div>
-        {/* Hero Buttons */}
-          <div className="hero-buttons">
-            <buttons className="btn">Get Started</buttons>
-            <buttons className="btn">Learn More</buttons>
-          </div>
+         {/* Hero Buttons */}
+             <div className="hero-button">
+                <button className="btn">Get Started</button>
+                <button className="btn">Learn More</button>
+            </div>
+
+      </div>
+        
 
         <div className="right-h">Right</div>
 
