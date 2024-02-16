@@ -1,6 +1,6 @@
 import React from 'react'
-import './Programs.css '
-const programs = () => {
+import './Programs.css'
+const Programs = () => {
   return (
     <div className="Programs" id = "programs">
         {/* header */}
@@ -13,4 +13,4 @@ const programs = () => {
   )
 }
 
-export default programs
+export default Programs
