@@ -1,8 +1,15 @@
 import React from 'react'
-import './Programs.css'
+import './Programs.css '
 const programs = () => {
   return (
-    <div>programs</div>
+    <div className="Programs" id = "programs">
+        {/* header */}
+        <div className="programs-header">
+            <span className='stroke-text'>Explore our</span>
+            <span>Programs</span>
+            <span className='stroke-text'>to shape yoy</span> 
+        </div>
+    </div>
   )
 }
 
