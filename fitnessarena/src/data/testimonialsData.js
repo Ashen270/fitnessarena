@@ -7,8 +7,8 @@ export const testimonialsData = [
     image: image1,
     review:
       "I made the right choice by choosing the Fitclub and by choosing the right plan and program I already achieved my ideal body!",
-    name: 'Mahinda Rajapakshe',
-    status : 'ENTREPRENEUR'
+    name: 'Mahinda Rajapakshe ',
+    status : ' ENTREPRENEUR'
   },
   {
     image: image2,
