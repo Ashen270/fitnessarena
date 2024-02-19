@@ -4,6 +4,7 @@ import Programs from './componets/Programs/Programs';
 import Reasons from './componets/Reasons/Reasons';
 import Plans from './componets/Plans/Plans';
 import Testimonials from './componets/Testimonials/Testimonials';
+import Join from './componets/Join/Join';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Reasons/>
           <Plans/>
           <Testimonials/>
+          <Join/>
 
           
      </div>   
