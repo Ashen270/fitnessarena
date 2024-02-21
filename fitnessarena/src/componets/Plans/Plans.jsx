@@ -4,7 +4,7 @@ import {plansData} from '../../data/plansData'
 import whiteTick from '../../assets/whiteTick.png'
 const Plans = () => {
   return (
-   <div className="plans-container">
+   <div className="plans-container" id='Plans'>
             <div className="blur plans-blur1"></div>
             <div className="blur plans-blur2"></div>
           
@@ -17,7 +17,7 @@ const Plans = () => {
          </div>
 
          {/* Plans Card */}
-         <div className="plans">
+         <div className="plans" id='plans'>
             {plansData.map((plan, i)=> (
                 <div className="plan" key={1}>
                     {plan.icon}
