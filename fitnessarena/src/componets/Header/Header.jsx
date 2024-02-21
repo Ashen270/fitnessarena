@@ -4,7 +4,7 @@ import Logo from '../../assets/logo.png';
 import Bars from '../../assets/bars.png';
 import { Link } from "react-scroll";
 const Header = () => {
-  const mobile = window.innerWidth <= 900 ? true : false;
+  const mobile = window.innerWidth <= 1000 ? true : false;
   const [menuOpened, setMenuOpened] = useState(false);
 
   return (
